@@ -12,6 +12,7 @@ const Button = ({
   return (
     <button
       onClick={onClick}
+      data-testid='@ui/button'
       className={tw(
         'h-9',
         'px-4',
